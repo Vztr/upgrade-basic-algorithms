@@ -90,3 +90,41 @@ let z = 5;
 let x = y * z;
 
 console.log(x);
+
+//////// ITERACION 4 ////////
+
+//------------------- 4.1
+
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log(avengers[0]);
+
+//------------------- 4.2
+
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+avengers.unshift("IRON_MAN");
+
+/* const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+avengers.push("IRON_MAN");
+avengers.reverse(); */
+
+//------------------- 4.3
+
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log(avengers.length);
+
+//------------------- 4.4
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+rickAndMortyCharacters.push("Morty", "Summer");
+console.log(rickAndMortyCharacters[4]);
+
+//------------------- 4.5
+
+
+
+//------------------- 4.6
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"]
+rickAndMortyCharacters.splice(1,1);
+console.log(rickAndMortyCharacters);
+
